@@ -212,7 +212,7 @@ function mostrarCuantosArboles() {
 
     const resultadosHTML = `
         <h2 style="font-size: 20px; color: #000000;">¡¡Puedes empezar sembrando árboles!!</h2>
-        <p style="font-size: 18px; color: #000000; margin: 0;">Según tus resultados, para compensar tu huella de carbono necesitas sembrar aproximadamente</p>
+        <p style="font-size: 18px; color: #000000; margin: 0;">Según tus resultados, para compensar tu huella de carbono, necesitas sembrar aproximadamente</p>
         <p style="font-size: 23px; color: #4CAF50; margin: 0;">${sumaArboles} árboles al año.</p>
         <h2 style="font-size: 20px; color: #000000;">O puedes reducir el consumo de carne, caminar más y practicar el reciclaje.</h2>
         <img src="arboles.png" alt="arboles" width="600" height="206" style="float: left; margin-right: 10px;">
