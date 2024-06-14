@@ -160,7 +160,7 @@ function mostrarResultados() {
     let resultadosHTML = '';
     personas.forEach(persona => {
         const CO2_anual = persona.CO2_total * 12;
-        resultadosHTML += `<p class="resultado-texto">${persona.nombre}, tu huella de carbono al mes es de ${persona.CO2_total.toFixed(2)} toneladas de carbono. Es decir, que en el último año tu huella de carbono fue de ${CO2_anual.toFixed(2)} toneladas de CO2.</p>`;
+        resultadosHTML += `<p class="resultado-texto">${persona.nombre}, tu huella de carbono al mes es de ${persona.CO2_total.toFixed(2)} toneladas de carbono. Es decir que, en el último año tu huella de carbono fue de ${CO2_anual.toFixed(2)} toneladas de CO2.</p>`;
 
         if (CO2_anual > 7) {
             resultadosHTML += `
