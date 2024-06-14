@@ -194,7 +194,7 @@ function mostrarResultados() {
 
     // Agrega el botón "¿Cómo remediarlo?" y el resultado de cuántos árboles sembrar
     resultadosHTML += `
-        <button type="button" onclick="mostrarCuantosArboles()">¿Cómo remediarlo?</button>
+        <button type="button" onclick="mostrarCuantosArboles()">¿Qué puedes hacer?</button>
         <div id="resultadoArboles" style="display:none;"></div>
     `;
 
